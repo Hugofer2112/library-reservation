@@ -55,7 +55,7 @@ const Home = () => {
       <h1>Biblioteca El Saber</h1>
       <p>Bienvenido a la Biblioteca El Saber, tu portal de conocimiento y aprendizaje.</p>
       <div className="mission-vision">
-        <h2>Nuestra Misión</h2>
+        <h2>Nuestra Misión dsfsd</h2>
         <p>Fomentar la lectura y el aprendizaje continuo a través de una amplia colección de recursos bibliográficos y actividades educativas.</p>
         <h2>Nuestra Visión</h2>
         <p>Ser un referente en la promoción del conocimiento y la cultura en nuestra comunidad, ofreciendo servicios de calidad y acceso a la información para todos.</p>
