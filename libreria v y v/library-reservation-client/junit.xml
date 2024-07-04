@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="4" errors="0" time="7.483">
+  <testsuite name="Componente App" errors="0" failures="4" skipped="0" timestamp="2024-06-19T15:35:55" time="6.29" tests="10">
+    <testcase classname="Componente App renderiza la página de inicio" name="Componente App renderiza la página de inicio" time="1.06">
+      <failure>Error: Unable to find an element with the text: Welcome to the Home page!. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;nav
+        class=&quot;nav-bar&quot;
+      &gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;a
+              href=&quot;/&quot;
+            &gt;
+              Home
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a
+              href=&quot;/login&quot;
+            &gt;
+              Login
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a
+              href=&quot;/register&quot;
+            &gt;
+              Register
+            &lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/nav&gt;
+      &lt;div
+        class=&quot;content&quot;
+      &gt;
+        &lt;div
+          class=&quot;home-container&quot;
+        &gt;
+          &lt;h1&gt;
+            Biblioteca El Saber
+          &lt;/h1&gt;
+          &lt;p&gt;
+            Bienvenido a la Biblioteca El Saber, tu portal de conocimiento y aprendizaje.
+          &lt;/p&gt;
+          &lt;div
+            class=&quot;mission-vision&quot;
+          &gt;
+            &lt;h2&gt;
+              Nuestra Misión
+            &lt;/h2&gt;
+            &lt;p&gt;
+              Fomentar la lectura y el aprendizaje continuo a través de una amplia colección de recursos bibliográficos y actividades educativas.
+            &lt;/p&gt;
+            &lt;h2&gt;
+              Nuestra Visión
+            &lt;/h2&gt;
+            &lt;p&gt;
+              Ser un referente en la promoción del conocimiento y la cultura en nuestra comunidad, ofreciendo servicios de calidad y acceso a la información para todos.
+            &lt;/p&gt;
+            &lt;h2&gt;
+              Valores
+            &lt;/h2&gt;
+            &lt;ul&gt;
+              &lt;li&gt;
+                Compromiso
+              &lt;/li&gt;
+              &lt;li&gt;
+                Innovación
+              &lt;/li&gt;
+              &lt;li&gt;
+                Inclusión
+              &lt;/li&gt;
+              &lt;li&gt;
+                Accesibilidad
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at waitForWrapper (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\@testing-library\dom\dist\wait-for.js:163:27)
+    at C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\@testing-library\dom\dist\query-helpers.js:86:33
+    at findByText (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:59:25)
+    at call (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at Generator.tryCatch (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at Generator._invoke [as next] (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at asyncGeneratorStep (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at asyncGeneratorStep (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at _next (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at new Promise (&lt;anonymous&gt;)
+    at Object.&lt;anonymous&gt; (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at Promise.then.completed (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\jest-circus\build\utils.js:333:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\jest-circus\build\utils.js:259:10)
+    at _callCircusTest (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\jest-circus\build\run.js:277:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\jest-circus\build\run.js:209:3)
+    at _runTestsForDescribeBlock (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\jest-circus\build\run.js:97:9)
+    at _runTestsForDescribeBlock (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\jest-circus\build\run.js:91:9)
+    at run (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\jest-circus\build\run.js:31:3)
+    at runAndTransformResultsToJestFormat (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:135:21)
+    at jestAdapter (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:92:19)
+    at runTestInternal (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\jest-runner\build\runTest.js:411:16)
+    at runTest (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\jest-runner\build\runTest.js:499:34)</failure>
+    </testcase>
+    <testcase classname="Componente App permite al usuario iniciar sesión" name="Componente App permite al usuario iniciar sesión" time="0.076">
+    </testcase>
+    <testcase classname="Componente App permite al usuario registrarse" name="Componente App permite al usuario registrarse" time="0.033">
+    </testcase>
+    <testcase classname="Componente App muestra los libros en el panel de control" name="Componente App muestra los libros en el panel de control" time="0.083">
+    </testcase>
+    <testcase classname="Componente App permite al usuario reservar un libro" name="Componente App permite al usuario reservar un libro" time="0.147">
+    </testcase>
+    <testcase classname="Componente App permite al usuario cancelar una reserva" name="Componente App permite al usuario cancelar una reserva" time="0.165">
+    </testcase>
+    <testcase classname="Componente App muestra un mensaje de error si el login falla" name="Componente App muestra un mensaje de error si el login falla" time="0.116">
+    </testcase>
+    <testcase classname="Componente App muestra un mensaje de error si la obtención de libros falla" name="Componente App muestra un mensaje de error si la obtención de libros falla" time="1.05">
+      <failure>Error: Unable to find role=&quot;heading&quot; and name `/dashboard/i`
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;nav
+        class=&quot;nav-bar&quot;
+      &gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;a
+              href=&quot;/&quot;
+            &gt;
+              Home
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a
+              href=&quot;/login&quot;
+            &gt;
+              Login
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a
+              href=&quot;/register&quot;
+            &gt;
+              Register
+            &lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/nav&gt;
+      &lt;div
+        class=&quot;content&quot;
+      &gt;
+        &lt;div
+          class=&quot;form-container&quot;
+        &gt;
+          &lt;h2&gt;
+            Login
+          &lt;/h2&gt;
+          &lt;form&gt;
+            &lt;label
+              for=&quot;username&quot;
+            &gt;
+              Username:
+            &lt;/label&gt;
+            &lt;input
+              id=&quot;username&quot;
+              type=&quot;text&quot;
+              value=&quot;testuser&quot;
+            /&gt;
+            &lt;label
+              for=&quot;password&quot;
+            &gt;
+              Password:
+            &lt;/label&gt;
+            &lt;input
+              id=&quot;password&quot;
+              type=&quot;password&quot;
+              value=&quot;testpassword&quot;
+            /&gt;
+            &lt;button
+              type=&quot;submit&quot;
+            &gt;
+              Login
+            &lt;/button&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at waitForWrapper (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\@testing-library\dom\dist\wait-for.js:163:27)
+    at _callee8$ (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:198:18)
+    at call (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at Generator.tryCatch (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at Generator._invoke [as next] (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at asyncGeneratorStep (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at asyncGeneratorStep (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)</failure>
+    </testcase>
+    <testcase classname="Componente App muestra un mensaje de error si la reserva de un libro falla" name="Componente App muestra un mensaje de error si la reserva de un libro falla" time="1.06">
+      <failure>Error: Unable to find role=&quot;heading&quot; and name `/dashboard/i`
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;nav
+        class=&quot;nav-bar&quot;
+      &gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;a
+              href=&quot;/&quot;
+            &gt;
+              Home
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a
+              href=&quot;/login&quot;
+            &gt;
+              Login
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a
+              href=&quot;/register&quot;
+            &gt;
+              Register
+            &lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/nav&gt;
+      &lt;div
+        class=&quot;content&quot;
+      &gt;
+        &lt;div
+          class=&quot;form-container&quot;
+        &gt;
+          &lt;h2&gt;
+            Login
+          &lt;/h2&gt;
+          &lt;form&gt;
+            &lt;label
+              for=&quot;username&quot;
+            &gt;
+              Username:
+            &lt;/label&gt;
+            &lt;input
+              id=&quot;username&quot;
+              type=&quot;text&quot;
+              value=&quot;testuser&quot;
+            /&gt;
+            &lt;label
+              for=&quot;password&quot;
+            &gt;
+              Password:
+            &lt;/label&gt;
+            &lt;input
+              id=&quot;password&quot;
+              type=&quot;password&quot;
+              value=&quot;testpassword&quot;
+            /&gt;
+            &lt;button
+              type=&quot;submit&quot;
+            &gt;
+              Login
+            &lt;/button&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at waitForWrapper (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\@testing-library\dom\dist\wait-for.js:163:27)
+    at _callee9$ (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:223:18)
+    at call (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at Generator.tryCatch (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at Generator._invoke [as next] (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at asyncGeneratorStep (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at asyncGeneratorStep (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)</failure>
+    </testcase>
+    <testcase classname="Componente App muestra un mensaje de error si la cancelación de una reserva falla" name="Componente App muestra un mensaje de error si la cancelación de una reserva falla" time="1.058">
+      <failure>Error: Unable to find role=&quot;heading&quot; and name `/dashboard/i`
+
+Ignored nodes: comments, script, style
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;nav
+        class=&quot;nav-bar&quot;
+      &gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;a
+              href=&quot;/&quot;
+            &gt;
+              Home
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a
+              href=&quot;/login&quot;
+            &gt;
+              Login
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;a
+              href=&quot;/register&quot;
+            &gt;
+              Register
+            &lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/nav&gt;
+      &lt;div
+        class=&quot;content&quot;
+      &gt;
+        &lt;div
+          class=&quot;form-container&quot;
+        &gt;
+          &lt;h2&gt;
+            Login
+          &lt;/h2&gt;
+          &lt;form&gt;
+            &lt;label
+              for=&quot;username&quot;
+            &gt;
+              Username:
+            &lt;/label&gt;
+            &lt;input
+              id=&quot;username&quot;
+              type=&quot;text&quot;
+              value=&quot;testuser&quot;
+            /&gt;
+            &lt;label
+              for=&quot;password&quot;
+            &gt;
+              Password:
+            &lt;/label&gt;
+            &lt;input
+              id=&quot;password&quot;
+              type=&quot;password&quot;
+              value=&quot;testpassword&quot;
+            /&gt;
+            &lt;button
+              type=&quot;submit&quot;
+            &gt;
+              Login
+            &lt;/button&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at waitForWrapper (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\node_modules\@testing-library\dom\dist\wait-for.js:163:27)
+    at _callee10$ (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:251:18)
+    at call (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at Generator.tryCatch (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at Generator._invoke [as next] (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at asyncGeneratorStep (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)
+    at asyncGeneratorStep (C:\Users\hugof\OneDrive\Desktop\libreria v y v\library-reservation-client\src\App.test.js:2:1)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

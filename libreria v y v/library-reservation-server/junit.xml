@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="1.681">
+  <testsuite name="Server Endpoints" errors="0" failures="0" skipped="0" timestamp="2024-06-19T15:18:39" time="1.036" tests="6">
+    <testcase classname="Server Endpoints POST /register should register a user successfully" name="Server Endpoints POST /register should register a user successfully" time="0.121">
+    </testcase>
+    <testcase classname="Server Endpoints POST /register should handle errors during registration" name="Server Endpoints POST /register should handle errors during registration" time="0.081">
+    </testcase>
+    <testcase classname="Server Endpoints RPC methods should return a list of books" name="Server Endpoints RPC methods should return a list of books" time="0.007">
+    </testcase>
+    <testcase classname="Server Endpoints RPC methods should reserve a book successfully" name="Server Endpoints RPC methods should reserve a book successfully" time="0.004">
+    </testcase>
+    <testcase classname="Server Endpoints RPC methods should cancel a reservation successfully" name="Server Endpoints RPC methods should cancel a reservation successfully" time="0.004">
+    </testcase>
+    <testcase classname="Server Endpoints RPC methods should handle unauthorized cancellation" name="Server Endpoints RPC methods should handle unauthorized cancellation" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>
